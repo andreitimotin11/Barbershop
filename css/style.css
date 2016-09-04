@@ -2,7 +2,7 @@ body{
     background-color: black;
     background-image: url(../img/tint.jpg);
     color: white;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 /*72px*/
 .main-header{
@@ -13,7 +13,7 @@ body{
 a{
     text-decoration: none;
     color: white;
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-size: 16px;
     font-family: "PT sans", sans-serif;
 }
@@ -25,5 +25,10 @@ a{
 
 }
 .index-logo{
-    margin: 0 auto;
+    padding: 0 auto;
 }
+.index-content,
+.index-content a{
+     background-color: #ffffff;
+     color: #000;
+ }
