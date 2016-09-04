@@ -4,11 +4,19 @@ body{
     color: white;
     text-transform: uppercase;
 }
+div,nav,aside,main,footer,header,h1{
+    outline:1px solid red;
+}
 /*72px*/
 .main-header{
-    height: 72px;
     background-color: black;
+    margin-bottom: 60px;
 
+}
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
 }
 a{
     text-decoration: none;
@@ -18,17 +26,37 @@ a{
     font-family: "PT sans", sans-serif;
 }
 .main-navigation{
-
+    width: 780px;
+    float:left;
+}
+.user-block{
+    width:140px;
+    float:left;
 }
 
 .container{
-
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
 }
 .index-logo{
-    padding: 0 auto;
+    width: 368px;
+    height:204px;
+    margin: 0 auto;
+    margin-bottom: 25px;
 }
 .index-content,
 .index-content a{
      background-color: #ffffff;
      color: #000;
  }
+/*430px*/
+
+.features-item{
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+}
+.features-item:last-child{
+    margin-right: 0;
+}
