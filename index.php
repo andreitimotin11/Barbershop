@@ -128,7 +128,7 @@
 		</section>
 		<section>
 			<p>Разработано:</p>
-			<a href="htmlacademy.ru">htmlacademy.ru</a>
+			<a href="mailto:andreitimotin11@gmail.com">Andrei Timotin</a>
 		</section>
 
 	</footer>
